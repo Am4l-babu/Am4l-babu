@@ -1,99 +1,123 @@
-<img align="center" alt="Banner" src="https://user-images.githubusercontent.com/22107794/139580686-887df369-edb8-4bc8-b607-4fbf6d7e4866.gif"/>
+<img align="center" alt="robotics banner" src="https://user-images.githubusercontent.com/74038190/212284103-37f2c6d7-8c69-4e2f-a8a5-60c72b1f9d77.gif"/>
 
-<h1 align="left">
-  <img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" width="28" />
-  Hi, I'm <strong>Amal Babu</strong>
-</h1>
-
-<h3>Embedded Systems • Robotics • IoT • 3D Printing</h3>
-
-<div align="left">
-  <img align="right" width="350" src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" />
-
-  <p>
-    I am an electronics enthusiast passionate about building intelligent systems using 
-    microcontrollers, sensors, and robotics.
-  </p>
-
-  <p>
-    My interests include Embedded Systems, ROS2 robotics, IoT devices, and hardware prototyping 
-    using 3D printing.
-  </p>
-
-  <p>
-    I enjoy turning ideas into real-world working prototypes — from sensor systems to 
-    autonomous robots.
-  </p>
-
-  <p>
-    🌍 India  
-    🤖 Robotics & Embedded Systems Builder  
-    🛠️ Hardware + Software Integration  
-    🌱 Currently learning ROS2, SLAM, and Edge AI
-  </p>
-</div>
-
-<br clear="all" />
+<h1 align="center">Hi 👋 I'm Amal Babu</h1>
+<h3 align="center">Robotics • Embedded Systems • IoT • ROS2</h3>
 
 ---
 
-# 🛠️ Skills
+## 🧠 About Me
 
-## 💻 Programming
-- C / C++
-- Python
-- Arduino
-- Embedded Programming
+I am an **electronics enthusiast and robotics builder** passionate about creating intelligent systems that interact with the physical world.
 
-## ⚡ Hardware & Microcontrollers
-- Arduino
-- ESP8266 / ESP32
-- Raspberry Pi
-- Sensor interfacing
-- Motor control systems
+My work focuses on combining **hardware, sensors, and intelligent algorithms** to build useful machines.
 
-## 🤖 Robotics
-- ROS2
-- SLAM concepts
-- Autonomous robot design
-- Sensor fusion
+I enjoy building things like:
 
-## 🧰 Tools
-- VS Code
-- Arduino IDE
-- Git
-- Linux
-- ROS2
+* autonomous robots
+* IoT monitoring systems
+* sensor-based electronics
+* ROS2 robotics platforms
+* AI-enabled embedded devices
 
-## 🧪 Hardware Projects
-- Room Mapping Robot using ROS2
-- IoT Agriculture Monitoring System
-- Sensor-based automation systems
-- Autonomous mobile robots
+⚡ Turning ideas into **working hardware prototypes** is my favorite hobby.
 
 ---
 
-# 📊 GitHub Stats
+## 🔬 Current Interests
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=dark&hide_border=true"/>
-</div>
-
----
-
-# 🚀 Current Focus
-
-- ROS2 Robotics
-- Autonomous Mapping Robots
-- Edge AI on Embedded Devices
-- IoT Smart Agriculture Systems
-- Hardware + AI Integration
+* 🤖 Autonomous Mobile Robots
+* 🌱 Smart Agriculture using IoT
+* 🧠 Edge AI on embedded devices
+* 🗺️ SLAM and room mapping robots
+* 🖨️ Hardware prototyping with 3D printing
 
 ---
 
-# ⚡ Philosophy
+## 🛠️ Technologies & Tools
 
-> "The best way to understand a system is to build one."
+### Programming
 
-Every circuit tells a story.  
-Every robot is an experiment in motion.
+<p>
+<img src="https://skillicons.dev/icons?i=c,cpp,python,arduino" />
+</p>
+
+### Embedded & Hardware
+
+<p>
+Arduino • ESP8266 • ESP32 • Raspberry Pi  
+Sensor interfacing • Motor drivers • Embedded systems
+</p>
+
+### Robotics
+
+<p>
+ROS2 • SLAM concepts • Robot navigation • Sensor fusion
+</p>
+
+### Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=git,linux,vscode,raspberrypi" />
+</p>
+
+---
+
+## 🤖 Projects
+
+### 🔹 ROS2 Room Mapping Robot
+
+A mobile robot capable of mapping indoor environments using sensors and ROS2.
+
+### 🔹 IoT Smart Agriculture System
+
+A monitoring system for plant growth using sensors, camera vision and cloud monitoring.
+
+### 🔹 Autonomous Robot Platform
+
+A modular robot platform designed for experimentation with navigation algorithms.
+
+### 🔹 Sensor-Based Smart Systems
+
+Embedded devices using sensors for automation and monitoring.
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight"/>
+</p>
+
+<p align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight"/>
+</p>
+
+---
+
+## 📈 Contribution Graph
+
+<p align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night"/>
+</p>
+
+---
+
+## 🧭 Current Mission
+
+Building intelligent machines that combine:
+
+* sensing
+* computation
+* motion
+
+Robotics is where **electronics, software, and physics meet**.
+
+---
+
+## ⚡ Personal Philosophy
+
+> “The best way to understand a system is to build one.”
+
+Every robot is an experiment.
+Every circuit is a hypothesis.
+Every prototype is a step toward understanding the physical world.
