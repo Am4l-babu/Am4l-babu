@@ -1,123 +1,99 @@
-<img align="center" alt="robotics banner" src="https://user-images.githubusercontent.com/74038190/212284103-37f2c6d7-8c69-4e2f-a8a5-60c72b1f9d77.gif"/>
+<img align="center" alt="Banner" src="https://user-images.githubusercontent.com/22107794/139580686-887df369-edb8-4bc8-b607-4fbf6d7e4866.gif"/>
 
-<h1 align="center">Hi 👋 I'm Amal Babu</h1>
-<h3 align="center">Robotics • Embedded Systems • IoT • ROS2</h3>
+<h1 align="left">
+  <img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" width="28" />
+  Hi, I'm <strong>Amal Babu</strong>
+</h1>
 
----
+<h3>Embedded Systems • Robotics • IoT • 3D Printing</h3>
 
-## 🧠 About Me
+<div align="left">
+  <img align="right" width="350" src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" />
 
-I am an **electronics enthusiast and robotics builder** passionate about creating intelligent systems that interact with the physical world.
+  <p>
+    I am an electronics enthusiast passionate about building intelligent systems using 
+    microcontrollers, sensors, and robotics.
+  </p>
 
-My work focuses on combining **hardware, sensors, and intelligent algorithms** to build useful machines.
+  <p>
+    My interests include Embedded Systems, ROS2 robotics, IoT devices, and hardware prototyping 
+    using 3D printing.
+  </p>
 
-I enjoy building things like:
+  <p>
+    I enjoy turning ideas into real-world working prototypes — from sensor systems to 
+    autonomous robots.
+  </p>
 
-* autonomous robots
-* IoT monitoring systems
-* sensor-based electronics
-* ROS2 robotics platforms
-* AI-enabled embedded devices
+  <p>
+    🌍 India  
+    🤖 Robotics & Embedded Systems Builder  
+    🛠️ Hardware + Software Integration  
+    🌱 Currently learning ROS2, SLAM, and Edge AI
+  </p>
+</div>
 
-⚡ Turning ideas into **working hardware prototypes** is my favorite hobby.
-
----
-
-## 🔬 Current Interests
-
-* 🤖 Autonomous Mobile Robots
-* 🌱 Smart Agriculture using IoT
-* 🧠 Edge AI on embedded devices
-* 🗺️ SLAM and room mapping robots
-* 🖨️ Hardware prototyping with 3D printing
-
----
-
-## 🛠️ Technologies & Tools
-
-### Programming
-
-<p>
-<img src="https://skillicons.dev/icons?i=c,cpp,python,arduino" />
-</p>
-
-### Embedded & Hardware
-
-<p>
-Arduino • ESP8266 • ESP32 • Raspberry Pi  
-Sensor interfacing • Motor drivers • Embedded systems
-</p>
-
-### Robotics
-
-<p>
-ROS2 • SLAM concepts • Robot navigation • Sensor fusion
-</p>
-
-### Tools
-
-<p>
-<img src="https://skillicons.dev/icons?i=git,linux,vscode,raspberrypi" />
-</p>
+<br clear="all" />
 
 ---
 
-## 🤖 Projects
+# 🛠️ Skills
 
-### 🔹 ROS2 Room Mapping Robot
+## 💻 Programming
+- C / C++
+- Python
+- Arduino
+- Embedded Programming
 
-A mobile robot capable of mapping indoor environments using sensors and ROS2.
+## ⚡ Hardware & Microcontrollers
+- Arduino
+- ESP8266 / ESP32
+- Raspberry Pi
+- Sensor interfacing
+- Motor control systems
 
-### 🔹 IoT Smart Agriculture System
+## 🤖 Robotics
+- ROS2
+- SLAM concepts
+- Autonomous robot design
+- Sensor fusion
 
-A monitoring system for plant growth using sensors, camera vision and cloud monitoring.
+## 🧰 Tools
+- VS Code
+- Arduino IDE
+- Git
+- Linux
+- ROS2
 
-### 🔹 Autonomous Robot Platform
-
-A modular robot platform designed for experimentation with navigation algorithms.
-
-### 🔹 Sensor-Based Smart Systems
-
-Embedded devices using sensors for automation and monitoring.
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight"/>
-</p>
-
-<p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight"/>
-</p>
-
----
-
-## 📈 Contribution Graph
-
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night"/>
-</p>
+## 🧪 Hardware Projects
+- Room Mapping Robot using ROS2
+- IoT Agriculture Monitoring System
+- Sensor-based automation systems
+- Autonomous mobile robots
 
 ---
 
-## 🧭 Current Mission
+# 📊 GitHub Stats
 
-Building intelligent machines that combine:
-
-* sensing
-* computation
-* motion
-
-Robotics is where **electronics, software, and physics meet**.
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=dark&hide_border=true"/>
+</div>
 
 ---
 
-## ⚡ Personal Philosophy
+# 🚀 Current Focus
 
-> “The best way to understand a system is to build one.”
+- ROS2 Robotics
+- Autonomous Mapping Robots
+- Edge AI on Embedded Devices
+- IoT Smart Agriculture Systems
+- Hardware + AI Integration
 
-Every robot is an experiment.
-Every circuit is a hypothesis.
-Every prototype is a step toward understanding the physical world.
+---
+
+# ⚡ Philosophy
+
+> "The best way to understand a system is to build one."
+
+Every circuit tells a story.  
+Every robot is an experiment in motion.
