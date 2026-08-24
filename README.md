@@ -1,5 +1,13 @@
 <div align="center">
 
+<!-- BANNER - the pixel-art coding-room GIF carried over from the previous
+     profile README. Hosted on GitHub's own user-images CDN, so it is not
+     going anywhere, but it is the one image on this page not generated from
+     a file in this repo. -->
+<img src="https://user-images.githubusercontent.com/22107794/139580686-887df369-edb8-4bc8-b607-4fbf6d7e4866.gif" width="100%" alt="pixel-art coding room">
+
+<br><br>
+
 <!-- PORTRAIT - the photograph itself, corners rounded. This is the
      photo--sky-round cell of the treatment x backdrop matrix; scripts/looks.py
      renders all 24 into assets/options/ if you want to swap it for a cutout,
