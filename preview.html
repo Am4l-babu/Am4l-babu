@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Profile assets - preview</title>
+<style>
+  :root { --bg:#0d1117; --panel:#0b0e14; --line:#21262d; --fg:#c9d1d9; --muted:#8b949e; --accent:#00f0ff; }
+  body.light { --bg:#ffffff; --panel:#f6f8fa; --line:#d0d7de; --fg:#1f2328; --muted:#57606a; --accent:#0e7490; }
+  * { box-sizing:border-box }
+  body { margin:0; padding:32px 20px 80px; background:var(--bg); color:var(--fg);
+         font:14px/1.6 ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial,sans-serif; }
+  .wrap { max-width:980px; margin:0 auto }
+  h1 { font-size:20px; margin:0 0 4px }
+  h2 { font-size:14px; text-transform:lowercase; letter-spacing:.06em; color:var(--accent);
+       margin:44px 0 14px; font-family:ui-monospace,Consolas,monospace; font-weight:600 }
+  p.note { color:var(--muted); margin:0 0 8px }
+  .row { display:flex; flex-wrap:wrap; gap:18px; align-items:flex-start }
+  .cell { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:12px }
+  .cell img { display:block; max-width:100%; height:auto }
+  .cap { color:var(--muted); font-family:ui-monospace,Consolas,monospace; font-size:11px; margin-top:8px }
+  img.missing { min-width:200px; min-height:60px }
+  button { position:fixed; top:16px; right:16px; z-index:9; cursor:pointer;
+           background:var(--panel); color:var(--fg); border:1px solid var(--line);
+           border-radius:8px; padding:8px 14px; font:inherit }
+  .miss { color:#f85149; font-family:ui-monospace,Consolas,monospace; font-size:12px }
+</style>
+</head>
+<body>
+<button onclick="document.body.classList.toggle('light')">toggle theme</button>
+<div class="wrap">
+
+  <h1>Profile assets — local preview</h1>
+  <p class="note">
+    Everything here is a file in <code>assets/</code>. Anything marked missing has not been
+    generated yet — the <code>metrics.*</code> panels only exist after the Actions workflow
+    runs on GitHub. This page is not the README; it is a way to eyeball the artwork
+    without pushing.
+  </p>
+
+  <h2>portrait</h2>
+  <div class="row">
+    <div class="cell"><img src="assets/portrait.png" width="300" alt="portrait">
+      <div class="cap">assets/portrait.png — photo--sky-round</div></div>
+    <div class="cell"><img src="assets/photo-cut.png" width="200" alt="sky-removed source">
+      <div class="cap">assets/photo-cut.png — cutout.py, feeds the other looks</div></div>
+    <div class="cell"><img src="assets/photo.jpg" width="200" alt="source photo">
+      <div class="cap">assets/photo.jpg — the original</div></div>
+  </div>
+
+  <p class="note">
+    All 24 treatment x backdrop combinations are in <code>assets/options/</code>
+    — open <code>_grid-dark.png</code> / <code>_grid-light.png</code> to compare
+    them, then copy the one you want over <code>assets/portrait.png</code>.
+  </p>
+
+  <h2>radars</h2>
+  <div class="row">
+    <div class="cell"><img class="dark" src="assets/radar-dark.svg" width="380" alt="skill radar">
+      <div class="cap">assets/radar-{dark,light}.svg — from skills.json</div></div>
+    <div class="cell"><img class="dark" src="assets/radar-langs-dark.svg" width="380" alt="language radar">
+      <div class="cap">assets/radar-langs-{dark,light}.svg — live language bytes</div></div>
+  </div>
+
+  <h2>the numbers</h2>
+  <div class="row">
+    <div class="cell"><img class="dark" src="assets/card-stats-dark.svg" width="480" alt="stat card">
+      <div class="cap">assets/card-stats-{dark,light}.svg</div></div>
+  </div>
+
+  <h2>project cards</h2>
+  <div class="row" id="cards"></div>
+
+  <h2>metrics (Actions only)</h2>
+  <div class="row">
+    <div class="cell"><img src="assets/metrics.isocalendar.svg" width="440" alt="isocalendar">
+      <div class="cap">assets/metrics.isocalendar.svg</div></div>
+    <div class="cell"><img src="assets/metrics.languages.svg" height="165" alt="languages">
+      <div class="cap">assets/metrics.languages.svg</div></div>
+    <div class="cell"><img src="assets/metrics.achievements.svg" width="440" alt="achievements">
+      <div class="cap">assets/metrics.achievements.svg</div></div>
+    <div class="cell"><img src="assets/metrics.habits.svg" width="440" alt="habits">
+      <div class="cap">assets/metrics.habits.svg</div></div>
+  </div>
+
+</div>
+
+<script>
+// Project cards are read from projects.json so this page never drifts out of
+// sync with which four repos are actually featured.
+fetch('assets/projects.json')
+  .then(r => r.json())
+  .then(d => {
+    document.getElementById('cards').innerHTML = d.projects.map(p =>
+      `<div class="cell"><img class="dark" src="assets/card-${p.repo}-dark.svg" width="420"
+         alt="${p.repo}"><div class="cap">assets/card-${p.repo}-{dark,light}.svg</div></div>`
+    ).join('');
+    swap();
+  })
+  .catch(() => {
+    // file:// blocks fetch in some browsers; not worth a workaround for a preview
+    document.getElementById('cards').innerHTML =
+      '<p class="miss">projects.json could not be read (file:// fetch is blocked here) ' +
+      '— serve the folder with <code>python -m http.server</code> to see the cards.</p>';
+  });
+
+// Point every themed <img> at the -dark or -light variant to match the toggle.
+function swap() {
+  const light = document.body.classList.contains('light');
+  document.querySelectorAll('img.dark').forEach(img => {
+    img.src = img.src.replace(/-(dark|light)\.svg/, light ? '-light.svg' : '-dark.svg');
+  });
+}
+new MutationObserver(swap).observe(document.body, {attributes:true, attributeFilter:['class']});
+
+// Flag anything that has not been generated yet, instead of a silent broken icon.
+document.addEventListener('error', e => {
+  if (e.target.tagName !== 'IMG') return;
+  const cell = e.target.closest('.cell');
+  if (cell && !cell.querySelector('.miss')) {
+    const p = document.createElement('div');
+    p.className = 'miss';
+    p.textContent = 'not generated yet';
+    cell.prepend(p);
+  }
+}, true);
+</script>
+</body>
+</html>

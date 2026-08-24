@@ -1,0 +1,40 @@
+# ---- Python --------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# ---- OS junk -------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Editors -------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*~
+
+# ---- Portrait candidates -------------------------------------------------
+# scripts/looks.py renders 24 combinations plus two comparison grids, about
+# 7 MB. They are all regenerable from photo.jpg in one command, and the one
+# that was actually chosen is committed as assets/portrait.png.
+assets/options/
+
+# ---- Generated locally, not part of the profile --------------------------
+preview-readme.html
+
+# ---- Local scratch -------------------------------------------------------
+# The source photo IS committed (assets/photo.jpg) so the SVGs can be
+# regenerated from it. Only working copies are ignored.
+assets/_scratch/
+assets/*.tmp.*
+*.bak
+*.orig
+
+# ---- Secrets -------------------------------------------------------------
+.env
+.env.*
+*.pem
+*.key

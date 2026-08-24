@@ -1,0 +1,21 @@
+{
+  "_comment": "Featured repos, in README order. Stars, forks, language and the live-site marker come from the API on every run; the description here overrides the repo's own GitHub description. Setting the description on GitHub too is worth doing - it is what anyone browsing your repo list sees.",
+  "projects": [
+    {
+      "repo": "acoustic_rain_gauge_ml",
+      "description": "Can a microphone replace a rain gauge? Estimating rainfall from the sound of it, with a tipping-bucket gauge as ground truth. 780k labelled clips, published on Kaggle."
+    },
+    {
+      "repo": "MINI-S6",
+      "description": "An AI-driven digital twin for micro-farming: live sensor telemetry, predictive growth modelling and automated actuator control in one cyber-physical loop."
+    },
+    {
+      "repo": "ESP32S3-Novastrike",
+      "description": "A full arcade space shooter running on a Xiao ESP32-S3 - 0.96\" OLED, I2S audio, capacitive touch, ~50 FPS and infinite waves in 1.1k lines of C++."
+    },
+    {
+      "repo": "ESP8266-LED-CUBE",
+      "description": "A WiFi-controlled 4x4x4 LED cube with 20 animations and a browser dashboard that renders the cube in real-time 3D as it runs."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Skill Radar",
+  "_comment": "SELF-RATED, 0-100. These starting numbers were inferred from the languages and subject matter of your public repos, not from you - edit them so they say what you mean. 5-8 axes reads best; past that the labels start colliding. assets/radar-{dark,light}.svg is redrawn from this file by .github/workflows/charts.yml on every push that touches it.",
+  "axes": [
+    { "label": "Embedded C/C++", "value": 90 },
+    { "label": "IoT & Protocols", "value": 85 },
+    { "label": "Python",         "value": 82 },
+    { "label": "Edge AI / TinyML", "value": 78 },
+    { "label": "Digital Twins",  "value": 74 },
+    { "label": "Web & Dashboards", "value": 70 },
+    { "label": "ROS 2 / Robotics", "value": 66 }
+  ]
+}
