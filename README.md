@@ -8,16 +8,11 @@
 
 <br><br>
 
-<!-- PORTRAIT - the photograph itself, corners rounded. This is the
-     photo--sky-round cell of the treatment x backdrop matrix; scripts/looks.py
-     renders all 24 into assets/options/ if you want to swap it for a cutout,
-     a duotone, a halftone or a circular crop.
-     Regenerate with:  python scripts/looks.py --only photo
-     then:             copy assets\options\photo--sky-round.png assets\portrait.png
-     Rendered at 600px for a 300px slot, so it stays sharp on a retina screen. -->
-<img src="assets/portrait.png" width="300" alt="Amal Babu">
-
-<br>
+<!-- No portrait: the banner carries the top of the page on its own.
+     To put one back, scripts/looks.py renders 24 candidates into
+     assets/options/ (photo, duotone, halftone x sky, cutout, card, circle);
+     copy the one you want to assets/portrait.png and add
+     <img src="assets/portrait.png" width="300" alt="Amal Babu"> here. -->
 
 <!-- NAME / TAGLINE - animated typing -->
 <a href="https://github.com/Am4l-babu">
